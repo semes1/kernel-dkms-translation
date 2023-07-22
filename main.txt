@@ -1,0 +1,22 @@
+    General setup--->   常规设置--->
+[*] 64bit kernel    64位内核
+    Processor type and features--->   处理器类型和功能--->
+[*] Mitigations for speculative execution vulnerabilities--->   推理执行漏洞的缓解措施--->
+    Power management and ACPI options--->   电源管理和ACPI选项--->
+    Bus options(PCIetc.)--->    总线选项（PCI等）--->
+    Binary Emulations--->    二进制仿真--->
+[*] Virtualization--->     虚拟化--->
+    General architecture-dependent options--->    与体系结构相关的常规选项--->
+[*] Enable loadable module support--->    启用可加载模块支持--->
+-*- Enable theblock layer--->    启用块图层--->
+    Executable file formats--->    可执行文件格式--->
+    Memory Management options--->    内存管理选项--->
+-*- Networking support--->     网络支持--->
+    Device Drivers--->     设备驱动程序--->
+    File systems--->     文件系统--->
+    Security options--->    安全选项--->
+-*- Cryptographic API--->    加密API--->
+    Library routines--->     库例程--->
+    Kernel hacking--->     内核骇客-进程回收--->
+    GentooLinux--->
+
