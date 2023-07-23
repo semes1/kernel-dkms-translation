@@ -1,1 +1,57 @@
- 
+[ ] Compile also drivers which will not load        编译不会加载的驱动程序
+[ ] Compile the kernel with warnings as errors       编译内核，并把警告作为错误
+(-x86_64) Local version - append to kernel release
+[ ] Automatically append version information to the version string    自动将版本信息追加到版本字符串
+()  Build ID Salt       构建加密ID
+    Kernel compression mode (Gzip)  --->     内核压缩模式 （Gzip） --->
+()  Default init path     默认init路径
+((none)) Default hostname    （（无））默认主机名
+-*- System V IPC
+[*] POSIX Message Queues      POSIX 消息队列
+[*] General notification queue      常规通知队列
+[*] Enable process_vm_readv/writev syscalls     启用process_vm_readv/写入系统调用
+[ ] uselib syscall (for libc5 and earlier)     uselib syscall（适用于libc5及更早版本）
+[*] Auditing support     审计支持
+    IRQ subsystem  --->    中断请求子系统  --->
+    Timers subsystem  --->   计时器子系统  --->
+    BPF subsystem  --->    网络数据包过滤子系统  --->
+    Preemption Model (Voluntary Kernel Preemption (Desktop))  --->     抢占模型（自愿内核抢占（桌面））--->
+[*] Preemption behaviour defined on boot    定义在引导时的内核抢占行为
+[ ] Core Scheduling for SMT    SMT 的核心调度
+    CPU/Task time and stats accounting  --->   CPU|任务时间和统计信息记帐--->
+-*- CPU isolation
+    RCU Subsystem  --->       (read copy update)数据同步子系统
+<*> Kernel .config support          内核配置支持
+[*]   Enable access to .config through /proc/config.gz         通过 /proc/config 启用对 .config.gz 的访问
+< > Enable kernel headers through /sys/kernel/kheaders.tar.xz    通过 /sys/kernel/kheaders.tar.xz 启用内核头文件
+(18) Kernel log buffer size (16 => 64KB, 17 => 128KB)      内核日志缓冲区大小 （16 => 64KB， 17 => 128KB）
+(12) CPU kernel log buffer size contribution (13 => 8 KB, 17 => 128KB)    CPU 内核日志缓冲区大小贡献 （13 => 8 KB， 17 => 128KB）
+[ ] Printk indexing debugfs interface     Printk 索引调试接口
+    Scheduler features  --->    调度程序功能  --->
+[*] Memory placement aware NUMA scheduler    内存放置感知 NUMA 调度程序
+[*]   Automatically enable NUMA aware memory/task placement    自动启用 NUMA 感知内存/任务放置
+-*- Control Group support  --->     组控制支持 --->
+-*- Namespaces support  --->     命名空间支持 --->
+[*] Checkpoint/restore support     检查点/还原支持
+[*] Automatic process group scheduling    自动流程组调度
+-*- Kernel->user space relay support (formerly relayfs)    内核>用户空间中继支持（以前称为 RelayFS）
+-*- Initial RAM filesystem and RAM disk (initramfs/initrd) support      初始 RAM 文件系统和 RAM 磁盘 （initramfs/initrd） 支持
+()    Initramfs source file(s)         Initramfs 源文件
+[*]   Support initial ramdisk/ramfs compressed using gzip     支持使用 gzip 压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using bzip2    支持使用 bzip2 压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using LZMA     支持使用 LZMA 压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using XZ       支持使用 XZ 压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using LZO      支持使用 LZO 压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using LZ4      支持使用 LZ4压缩的初始虚拟硬盘/内存
+[*]   Support initial ramdisk/ramfs compressed using ZSTD     支持使用 ZSTD 压缩的初始虚拟硬盘/内存
+-*- Boot config support
+[ ]   Force unconditional bootconfig processing   强制无条件引导配置处理
+[ ]   Embed bootconfig file in the kernel    在内核中嵌入引导配置文件
+[*] Preserve cpio archive mtimes in initramfs     在 initramfs 中保留 cpio archive mtimes
+    Compiler optimization level (Optimize for performance (-O2))  --->    编译器优化级别（针对性能进行优化 （-O2）） --->
+[ ] Configure standard kernel features (expert users)  --->    配置标准内核功能（专家用户） --->
+[ ] Embedded system      嵌入式系统
+    Kernel Performance Events And Counters  --->    内核性能事件和计数器--->
+[*] Profiling support     性能分析支持
+
+by:semes
